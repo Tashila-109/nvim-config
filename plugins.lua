@@ -303,6 +303,17 @@ local plugins = {
     "ThePrimeagen/vim-be-good",
     cmd = "VimBeGood",
   },
+  {
+    "rcarriga/nvim-notify",
+    lazy = false,
+  },
+  {
+    "gelguy/wilder.nvim",
+    config = function()
+      -- config goes here
+    end,
+    lazy = false,
+  },
 }
 
 return plugins
